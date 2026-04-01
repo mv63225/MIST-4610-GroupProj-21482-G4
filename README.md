@@ -92,3 +92,14 @@ Query 8 lists out how many of each position is taken in each of the past draft y
 
 
 This query is meant to tell how many of each position is taken in the draft in each year. This query joins the tables related to players and their positions and the DraftPicks table. It also takes the count of each position and groups it by year. This is important from a managerial perspective since looking at past drafted positions can help forecast how strong or weak certain draft classes were in certain positions. It also can help forecast when contract terms may run out and makes it easier to forecast free agency managers to make decisions. It can also tell what positions the league is in need of with how every team drafts.
+
+Query 9 lists all players and their positions
+<img width="1133" height="701" alt="Screenshot 2026-03-31 172631" src="https://github.com/user-attachments/assets/98dd2749-2811-4d2c-96ee-430af513234d" />
+
+
+This query displays the first and last names of the players, as well as their positions. It is helpful to understand the categorization of the players based on their roles on the field. This query is useful to coaches and analysts who want to easily group the players based on their positions.
+
+Query 10 finds average performance by position in combine participation
+<img width="1654" height="712" alt="Screenshot 2026-03-31 173504" src="https://github.com/user-attachments/assets/888ac97a-b849-4e89-b8b3-4e4f4babe881" />
+
+This query is used to calculate the total number of combine participants per position. It uses a grouping query based on the positions of the players and then calculates how many players participated in the combine. This query is useful for scouts and managers as they can use it to analyze which positions have the highest number of talents participating in the combine.
